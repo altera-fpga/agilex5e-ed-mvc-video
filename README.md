@@ -17,10 +17,10 @@ The projects are stored in individual folders, classified by device families and
 | **Target device family** | [Agilex™ 5E](https://www.altera.com/products/fpga/agilex/5/e-series) |
 | **Development kit** | [Agilex™ 5 FPGA and SoC E-Series 065B Modular Development Kit](https://www.altera.com/products/devkit/po-3274/agilex-5-fpga-and-soc-e-series-065b-modular-development-kit) |
 | **Control plane** | [Nios® V Processor](https://www.altera.com/products/ip/po-3098/nios-v-processors) with a bare-metal software application |
-| **Precompiled SOF** | [Version_26.1.1](https://github.com/altera-innersource/applications.fpga.reference-designs.projects.agilex-multi-video-connectivity/releases/download/rel-26.1.1/golden_4k_mvc_ed.sof) |
-| **Quartus Project** | [Version_26.1.1](https://github.com/altera-innersource/applications.fpga.reference-designs.projects.agilex-multi-video-connectivity/releases/download/rel-26.1.1/agilex5e_mdk_4k_mvc_ed.zip) |
-| **Source Code** | [Version_26.1.1](https://github.com/altera-innersource/applications.fpga.reference-designs.projects.agilex-multi-video-connectivity/tree/main/agilex5e-ed/a5e065b-mod-devkit) |
-| **User Guide** | [Version_26.1.1](https://github.com/altera-innersource/applications.fpga.reference-designs.projects.agilex-multi-video-connectivity/blob/main/agilex5e-ed/a5e065b-mod-devkit/docs/doc-mvc.md) |
+| **Precompiled SOF** | [Version_26.1.1](https://github.com/altera-fpga/agilex5e-ed-mvc-video/releases/download/rel-26.1.1/golden_4k_mvc_ed.sof) |
+| **Quartus Project** | [Version_26.1.1](https://github.com/altera-fpga/agilex5e-ed-mvc-video/releases/download/rel-26.1.1/agilex5e_mdk_4k_mvc_ed.zip) |
+| **Source Code** | [Version_26.1.1](https://github.com/altera-fpga/agilex5e-ed-mvc-video/tree/rel/26.1.1/agilex5e-ed/a5e065b-mod-devkit) |
+| **User Guide** | [Version_26.1.1](https://github.com/altera-fpga/agilex5e-ed-mvc-video/blob/rel/26.1.1/agilex5e-ed/a5e065b-mod-devkit/docs/doc-mvc.md) |
 
 <br/>
 
