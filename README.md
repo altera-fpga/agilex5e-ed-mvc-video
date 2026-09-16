@@ -1,2 +1,37 @@
-# agilex5e-ed-multi-video-connectivity
-This repository contains projects demonstrating how to create and build Multi-Connectivity Solution Example Designs, using Altera®'s Video and Vision Processing (VVP) Suite IP cores, and targeting Altera® Agilex™ devices.
+# Multi-Video Connectivity System Example Designs for Agilex™ Devices
+
+## Overview
+
+This repository contains projects demonstrating how to create and build 
+Multi-Video Connectivity System Example Designs, using Altera®'s off the shelf [Video and Vision Processing (VVP) IP cores](https://www.altera.com/products/ip/po-3150/video-and-vision-processing-suite),
+targeting [Altera® Agilex™ devices](https://www.altera.com/fpga).
+
+The projects are stored in individual folders, classified by device families and target devkits.
+
+---
+
+## 4Kp60 Multi-Video Connectivity for Agilex™ 5 Devices
+
+| | |
+|---|---|
+| **Target device family** | [Agilex™ 5E](https://www.altera.com/products/fpga/agilex/5/e-series) |
+| **Development kit** | [Agilex™ 5 FPGA and SoC E-Series 065B Modular Development Kit](https://www.altera.com/products/devkit/po-3274/agilex-5-fpga-and-soc-e-series-065b-modular-development-kit) |
+| **Quartus® tool** | [Altera® Quartus® Prime Pro Edition version 26.1.1](https://www.altera.com/downloads/fpga-development-tools/quartus-prime-pro-edition-design-software-version-26-1-1-linux) |
+| **Control plane** | [Nios® V Processor](https://www.altera.com/products/ip/po-3098/nios-v-processors) with a bare-metal software application |
+| **Precompiled SOF** | [golden_4k_mvc_ed.sof](https://github.com/altera-fpga/agilex5e-ed-mvc-video/releases/download/rel-26.1.1/golden_4k_mvc_ed.sof) |
+| **Quartus Project** | [agilex5e_mdk_4k_mvc_ed.zip](https://github.com/altera-fpga/agilex5e-ed-mvc-video/releases/download/rel-26.1.1/agilex5e_mdk_4k_mvc_ed.zip) |
+| **Source Code** | [Source Code](https://github.com/altera-fpga/agilex5e-ed-mvc-video/tree/rel/26.1.1/agilex5e-ed/a5e065b-mod-devkit) |
+| **User Guide** | [Documentation](https://github.com/altera-fpga/agilex5e-ed-mvc-video/blob/rel/26.1.1/agilex5e-ed/a5e065b-mod-devkit/docs/doc-mvc.md) |
+
+<br/>
+
+<p align="center">
+  <img src="./agilex5e-ed/a5e065b-mod-devkit/docs/images/ed-render.png" width="80%">
+</p>
+
+---
+
+
+
+
+

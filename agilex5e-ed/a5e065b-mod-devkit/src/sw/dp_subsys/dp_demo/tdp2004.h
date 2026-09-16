@@ -1,0 +1,48 @@
+
+#ifndef __TDP2004_H__
+#define __TDP2004_H__
+
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif /* __cplusplus */
+
+#include "alt_types.h"
+
+#define PARRETTO_I2C_TX_ADDR 0x18
+#define TDP2004_GENERAL_REG_ADDR 0xE2
+#define TDP2004_DEVICE_ID0_ADDR 0xF0
+#define TDP2004_DEVICE_ID1_ADDR 0xF1
+#define TDP2004_DEVICE_LN0_ADDR_OFFSET  0x00
+#define TDP2004_DEVICE_LN1_ADDR_OFFSET  0x20
+#define TDP2004_DEVICE_LN2_ADDR_OFFSET  0x40
+#define TDP2004_DEVICE_LN3_ADDR_OFFSET  0x60
+
+#define TDP2004_DEVICE_EQGAIN0_ADDR_OFFSET 0x01
+#define TDP2004_DEVICE_EQGAIN1_ADDR_OFFSET 0x03
+
+#define TDP2004_DEVICE_EQGAIN0_LN0_ADDR 0x01
+#define TDP2004_DEVICE_EQGAIN1_LN0_ADDR 0x03
+#define TDP2004_DEVICE_EQGAIN0_LN1_ADDR 0x21
+#define TDP2004_DEVICE_EQGAIN1_LN1_ADDR 0x23
+#define TDP2004_DEVICE_EQGAIN0_LN2_ADDR 0x41
+#define TDP2004_DEVICE_EQGAIN1_LN2_ADDR 0x43
+#define TDP2004_DEVICE_EQGAIN0_LN3_ADDR 0x61
+#define TDP2004_DEVICE_EQGAIN1_LN3_ADDR 0x63
+#define TDP2004_DEVICE_EQGAIN0_ALL_ADDR 0x81
+#define TDP2004_DEVICE_EQGAIN1_ALL_ADDR 0x83
+#define TDP2004_DEVICE_TSTMODE_ALL_ADDR 0x84
+#define TDP2004_DEVICE_BIASREG_ALL_ADDR 0x86
+
+unsigned int tdp2004_read_eq (unsigned int lane);
+void tdp2004_set_gain(unsigned char tdp2004_flatgain);
+void tdp2004_set_eq(unsigned int lane, unsigned int db_eq_index);
+
+#ifdef __cplusplus
+}
+#endif /* __cplusplus */
+
+
+#endif /* __TDP2004_H__ */
+
